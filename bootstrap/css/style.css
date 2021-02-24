@@ -1,0 +1,163 @@
+.margemTop
+{
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    height: 400px;
+    background-color: rgb(218, 212, 213);
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btnProcessarVenda
+  {
+    position:absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+  .btnCancelarVenda
+  {
+    position:absolute;
+    right: 200px;
+    bottom: 20px;
+  }
+  .btnProcessar
+  {
+    position:absolute;
+    right: 55px;
+    bottom: 8px;
+  }
+  .btnCancelar
+  {
+    position:absolute;
+    right: 220px;
+    bottom: 8px;
+  }
+  .margem
+  {
+    margin: 25px;
+  }
+  table > .margem
+  {
+    margin: 5px;
+  }
+
+
+
+  
+
+  
+ /* Carro add Modal  */
+  .addModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .addModal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    height: 78%;
+    background-color: rgb(218, 212, 213);
+  }
+  
+  /* The Close Button */
+  .fechar {
+    color: #aaa;
+    
+  }
+  
+  .fechar:hover,
+  .fechar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .salvarCarro
+  {
+    position: relative;
+    bottom: -10px;
+  }
+
+
+
+  .itensMargem
+  {
+    margin-top: 5px;
+  }
+  .opcoes
+  {
+    width: 40%;
+    border-color:rgba(0,0,0,0.4);
+  }
+
+  .opcoes:focus
+  {
+    border-color: turquoise;
+  }
+
+  .btnAdicionarStyle
+  {
+    margin-right: 20px;
+  }
+
+.indexDiv
+{
+  margin-top: 55px;
+  width: 100%;
+  height: 500px;
+}
+
+.navbar-brand
+{
+  margin-left: 50px;
+}
+.tableMargin
+{
+  margin-left: 10px;
+  margin-right: 10px;
+}
