@@ -20,11 +20,11 @@ include_once('./DAO/dao.php');
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary fixed-top">
-        <a href="index.php" class="navbar-brand">AngoCar</a>
+        <a href="home.php" class="navbar-brand">AngoCar</a>
         
         <div class="collapse navbar-collapse" id="navbarCollapse2">
             <div class="navbar-nav">
-                <a href="index.php" class="nav-item nav-link active">Home</a>
+                <a href="home.php" class="nav-item nav-link active">Home</a>
                 <a href="carros.php" class="nav-item nav-link">Carros</a>
                 <a href="motos.php" class="nav-item nav-link">Motos</a>
                 <a href="vender.php" class="nav-item nav-link">Vender</a>
